@@ -1,0 +1,67 @@
+/*General Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url(/img/bird.png) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.615);
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+   align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(27, 9,19);
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.navbar a:hover {
+    color: rgb(192, 43, 226);
+}
+
+.navbar .actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.action-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-button.email {
+    align-items: center;
+}
+
+.action-button.login {
+    background-color: rgb(231, 128, 195);
+    color: rgb(96, 49, 113);
+}
