@@ -21,7 +21,7 @@ body {
 }
 
 .navbar {
-    display: flex;
+   display: flex;
    justify-content: space-between;
    margin-bottom: 2rem;
    align-items: center;
@@ -73,8 +73,8 @@ body {
     justify-content: center;
     height: 70vh;
     max-width: 800px;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
 }
 
 .headline {
@@ -89,14 +89,13 @@ body {
     color: rgb(59, 57, 57);
 }
 
-.cta-button {
+.cta-buttons {
     display: flex;
     gap: 10px;
     justify-content: center;
-    padding: 20p;
-
-
+    padding: 20px;
 }
+
 .btn {
     padding: 15px 30px;
     border: none;
@@ -133,22 +132,22 @@ body {
     gap: 10px;
 }
 
-.subscribe-form input [type="email"] {
+.subscribe-form input[type="email"]{
     padding: 10px 40px;
     border-radius: 20px;
-    border-radius: 1px solid rgb(210, 208, 208);
+    border-radius: solid 1px rgb(210, 208, 208);
+    width: 40%;
 }
 
 .subscribe-form button {
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: rgb(96, 49, 113);
+    background-color: rgb(96, 49, 113); 
     color: white;
     border: none;
     font-weight: bold;
-
 }
 
-.subscribe-form button :hover {
+.subscribe-form button:hover {
     background-color: rgb(67, 34, 80);
 }
